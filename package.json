@@ -1,0 +1,22 @@
+{
+  "name": "p4",
+  "version": "1.0.0",
+  "description": "Projet OpenClassrooms OhMyFood",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clembea/Oh-My-Food-V2.git"
+  },
+  "author": "BEAREZ Clément",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clembea/Oh-My-Food-V2/issues"
+  },
+  "homepage": "https://github.com/Clembea/Oh-My-Food-V2#readme",
+  "devDependencies": {
+    "sass": "^1.54.8"
+  }
+}
