@@ -1,0 +1,23 @@
+@use "../utlis/variables.scss";
+
+.menus{
+    background-color: #f6f6f6;
+
+    .menus__cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr) ;
+        gap: 2rem;
+        @media (max-width:variables.$breakpoint){
+            grid-template-columns: repeat(1,1fr);
+        }
+    }
+    
+    .card{
+        & .card__image{
+            background-image: url("../../assets/menu-1.jpg");
+            height: 15rem;
+            border-radius: 3rem;
+            background-size: cover;
+        }
+    }
+}
